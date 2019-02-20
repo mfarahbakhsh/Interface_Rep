@@ -10,16 +10,9 @@ package interface_main;
  *
  * @author farsam
  */
-public class Interface_main {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-       Dog d=new Dog();
-       d.eat();
-       d.move();
-    }
+public interface Animal {
+    static int flag=1;
+    void eat();
+    void move();
     
 }
