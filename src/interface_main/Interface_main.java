@@ -20,6 +20,7 @@ public class Interface_main {
        Dog d=new Dog();
        d.eat();
        d.move();
+      
     }
     
 }
